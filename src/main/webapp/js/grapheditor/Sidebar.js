@@ -95,9 +95,9 @@ Sidebar.prototype.init = function()
 	
 	this.addSearchPalette(true);
 	this.addGeneralPalette(true);
-	this.addMiscPalette(false);
+	/* this.addMiscPalette(false);
 	this.addAdvancedPalette(false);
-	this.addBasicPalette(dir);
+	this.addBasicPalette(dir); */
 	
 	this.setCurrentSearchEntryLibrary('arrows');
 	this.addStencilPalette('arrows', mxResources.get('arrows'), dir + '/arrows.xml',
